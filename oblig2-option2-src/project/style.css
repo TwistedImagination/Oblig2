@@ -1,0 +1,14 @@
+/* Skjermer mindre enn 600 px, mobil */
+@media screen and (max-width: 600px){
+
+}
+
+/* Skjermer mellom 600px - 960px, tablets */
+@media screen and (min-width: 600) and (max-width: 960){
+    
+}
+
+/* Skjermer 960 eller større, PC */
+@media screen and (min-width: 960px){
+    
+}
