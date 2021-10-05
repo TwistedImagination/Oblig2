@@ -1,125 +1,14 @@
-/* Skjermer mindre enn 600 px, smallscreens: mobil */
+/* Skjermer mindre enn 600 px, mobil */
 @media screen and (max-width: 600px){
-    * {
-        font-size: 14px;
-        font-family: lato, sans-serif;
-    }
 
-    html {
-        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)
-    }
-
-    header {
-        max-height: 55vh;
-        background-image: url(assets/img/studentsbg.png); 
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        text-align: center; 
-        background: #c5192d;
-        color: white;
-    }
-
-    body {
-        font-size: 1.2rem;
-    }
-
-   main {
-       box-shadow: 0 0 1px 0 darkgray;
-       background-color: whitesmoke;
-   } 
-
-   footer {
-    background: #c5192d;
-    color: white;
-   }
-
-   #id {
-       margin: auto;
-       padding: auto;
-       background: #c5192d;
-   }
-
-   h1, h2, h3 {
-       /* Vet ikke om vi må linke fonten fra foldersida, men vet ikke helt hvordan isåfall */
-       font-family: Monsterrat, sans-serif;
-   }
-
-   h1 {
-       font-size: 4rem;
-   }
-
-   h2 {
-       font-size: 2.2rem;
-   }
-
-   p {
-       max-width: 70ch;
-   }
 }
 
-
-/* Skal vi lage flere media.css filer (3stk) , og linke de i headern under rel ="stylesheet"? */
-
-/* Skjermer mellom 600px - 960px, landscapescreens: tablets */
+/* Skjermer mellom 600px - 960px, tablets */
 @media screen and (min-width: 600) and (max-width: 960){
     
 }
 
-/* Testa på min egen laptop, så kopierte css koden ovenfor bare */
-/* Skjermer 960 eller større, widescreens: PC */
+/* Skjermer 960 eller større, PC */
 @media screen and (min-width: 960px){
-    * {
-        font-size: 24px;
-        font-family: lato, sans-serif;
-    }
-
-    html {
-        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    }
-
-    header {
-        background: url(assets/img/studentsbg.png) repeat 0 0;
-        background-attachment: fixed;
-        background-size: cover;
-        background: #c5192d;
-        text-align: center; 
-        color: white;
-    }
-
-    body {
-        font-size: 1.2rem;
-    }
-
-   main {
-       box-shadow: 0 0 1px 0 darkgray;
-       background-color: whitesmoke;
-   } 
-
-   footer {
-    background: #c5192d;
-    color: white;
-   }
-
-   #id {
-       background: #c5192d;
-   }
-
-   h1, h2, h3 {
-       /* Vet ikke om vi må linke fonten fra foldersida, men vet ikke helt hvordan isåfall */
-       font-family: Monsterrat, sans-serif;
-   }
-
-   h1 {
-       font-size: 4rem;
-   }
-
-   h2 {
-       font-size: 2.2rem;
-   }
-
-   p {
-       max-width: 70ch;
-       line-height: 1.5cm;
-   }
+    
 }
