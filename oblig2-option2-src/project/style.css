@@ -58,7 +58,7 @@
 
 /* Skal vi lage flere media.css filer (3stk) , og linke de i headern under rel ="stylesheet"? */
 
-/* Skjermer mellom 600px - 960px, landscapescreens: tablets */
+/* Skjermer mellom 600px - 960px, landscapescreen tablets */
 @media screen and (min-width: 600) and (max-width: 960){
     
 }
